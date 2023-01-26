@@ -1,5 +1,5 @@
-name: ins-lc-cicd
-user: larryc
+name: ins-cicd
+user: ajayt
 parameters:
   class: training
   training:
@@ -15,14 +15,14 @@ parameters:
     datums:
       workspace:
         data:
-          name: 'larryc:ins-lc-cicd'
+          name: 'ajayt:ins-at-cicd'
           version: ''
         script: python insurance/training.py
       datasets:
-        - name: 'larryc:ins-lc-cicd'
+        - name: 'ajayt:ins-at-cicd'
           mountpath: 
       outputs:
-        - name: 'larryc:ins-lc-cicd'
+        - name: 'ajayt:ins-at-cicd'
           mountpath: 
     featuresets: {}
     tags: []
