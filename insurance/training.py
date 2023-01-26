@@ -116,4 +116,4 @@ with mlflow.start_run(run_name="insurance") as run:
                        "code": "https://github.com/oneconvergence/dkube-examples/tree/training/insurance",
                        "model": "Deep Neural Network"})
     
-print("Training Complete !")
+print("Training Complete with CICD !")
